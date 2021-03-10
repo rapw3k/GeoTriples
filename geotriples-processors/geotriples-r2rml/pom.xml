@@ -169,7 +169,7 @@
 	
 	<repositories>
 		<!-- Temporary: MonetDB jdbc -->
-		<repository>
+		<!--<repository>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -179,9 +179,9 @@
 			<id>strabon.testing</id>
 			<name>Strabon - testing maven repository</name>
 			<url>http://maven.strabon.di.uoa.gr/content/repositories/testing/</url>
-		</repository>
+		</repository>-->
 		<!-- Temporary: Joseki dependencies -->
-		<repository>
+		<!--<repository>
 			<id>geotriples.dependencies</id>
 			<name>GeoTriples - maven repository - dependencies</name>
 			<url>http://maven.strabon.di.uoa.gr/content/repositories/geotriples.dependencies/</url>
@@ -191,6 +191,16 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
+		</repository>-->
+		<!-- Temporary: MonetDB jdbc -->
+		<repository>
+			<id>clojars</id>
+			<url>http://clojars.org/repo/</url>
+		</repository>
+		<!-- Temporary: Joseki dependencies -->
+		<repository>
+			<id>rapw3k-geotriples-dependencies</id>
+			<url>https://raw.githubusercontent.com/rapw3k/geotriples-dependencies/repository/</url>
 		</repository>
 
 		<repository>

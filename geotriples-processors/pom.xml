@@ -174,10 +174,10 @@
 		</dependency>
 		<dependency>
 			<groupId>monetdb</groupId>
-			<artifactId>monetdb-jdbc-2.11</artifactId>
-			<version>11.20.0-geo-LEO</version>
-			<!-- <artifactId>monetdb-jdbc</artifactId> -->
-			<!-- <version>2.11</version> -->
+			<!--<artifactId>monetdb-jdbc-2.11</artifactId>-->
+			<!--<version>11.20.0-geo-LEO</version>-->
+			<artifactId>monetdb-jdbc</artifactId>
+			<version>2.11</version>
 		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>commons-dbcp</groupId> -->
@@ -193,7 +193,8 @@
 		<dependency>
 			<groupId>joseki</groupId>
 			<artifactId>joseki</artifactId>
-			<version>3.3.4</version>
+			<!--<version>3.3.4</version>-->
+			<version>3.4.4</version>
 		</dependency>
 		<!-- JTS -->
 		<dependency>
