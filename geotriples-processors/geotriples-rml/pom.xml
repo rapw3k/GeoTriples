@@ -238,9 +238,16 @@
 	<repositories>
 			<!-- Temporary: MonetDB jdbc -->
 			<repository>
-				<id>clojars</id>
-				<url>http://clojars.org/repo/</url>
-			</repository>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>strabon.testing</id>
+			<name>Strabon - testing maven repository</name>
+			<url>https://clojars.org/repo/</url>
+		</repository>
 			<!-- Temporary: Joseki dependencies -->
 			<repository>
 				<id>rapw3k-geotriples-dependencies</id>
